@@ -17,6 +17,11 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: gold;
+    color: black;
 }
 
 .section {
@@ -173,6 +178,51 @@ body {
 }
 
 /* instagram section end  */
+
+/* Extra (Our Blog) Section  */
+
+.blog-container{
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
+.blog-info{
+    border: 3px solid red;
+    padding: 8px;
+}
+.blog-title{
+    color: #393737;
+text-align: center;
+font-size: 18px;
+font-weight: 800;
+margin-bottom: 8px;
+}
+.blog-title:hover{
+    color: darkblue;
+}
+.blog-description{
+    color: rgba(71, 69, 69, 0.6);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 8px;
+}
+.blog-btn{
+    border-radius: 2px;
+    border: 0;
+    background: red;
+    padding: 7px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.blog-btn:hover{
+    background-color: cornflowerblue;
+    color: darkslategray;
+}
+
+/* Extra (Our Blog) Section  */
 
 /* Latest-deal section start */
 .latest-deal {
