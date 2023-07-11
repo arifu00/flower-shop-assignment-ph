@@ -19,7 +19,8 @@ body {
     font-weight: 700;
     cursor: pointer;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: gold;
     color: black;
 }
@@ -109,14 +110,14 @@ body {
     background: rgba(5, 151, 160, 0.15);
     height: 380px;
     width: 350px;
-    padding: 40px 15px 20px 15px;
+    padding: 40px 15px 30px 15px;
 }
 
 .featured-flowers-pic-3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     height: 380px;
-    padding: 70px 35px 0px 35px;
+    padding: 70px 45px 0px 45px;
 }
 
 .featured-flowers-info p {
@@ -124,6 +125,30 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 700;
+}
+
+.support {
+    height: 180px;
+    margin-top: 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.support-img {
+    width: 60px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.support-p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* featured-flowers section end  */
@@ -137,7 +162,7 @@ body {
 .hot-deal {
     margin: 0 auto;
     display: flex;
-    padding: 40px 100px 0px 150px;
+    padding: 40px 100px 45px 150px;
     justify-content: space-evenly;
     align-items: center;
 
@@ -158,6 +183,10 @@ body {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 12px;
+}
+.hot-deal-pic{
+    width: 230px;
+
 }
 
 .btn-center {
@@ -181,33 +210,38 @@ body {
 
 /* Extra (Our Blog) Section  */
 
-.blog-container{
+.blog-container {
     display: flex;
     gap: 22px;
     justify-content: center;
 }
-.blog-info{
+
+.blog-info {
     border: 3px solid red;
     padding: 8px;
 }
-.blog-title{
+
+.blog-title {
     color: #393737;
-text-align: center;
-font-size: 18px;
-font-weight: 800;
-margin-bottom: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 8px;
 }
-.blog-title:hover{
+
+.blog-title:hover {
     color: darkblue;
 }
-.blog-description{
+
+.blog-description {
     color: rgba(71, 69, 69, 0.6);
     font-size: 17px;
     font-weight: 400;
     text-align: justify;
     margin-bottom: 8px;
 }
-.blog-btn{
+
+.blog-btn {
     border-radius: 2px;
     border: 0;
     background: red;
@@ -217,7 +251,8 @@ margin-bottom: 8px;
     font-weight: 700;
     cursor: pointer;
 }
-.blog-btn:hover{
+
+.blog-btn:hover {
     background-color: cornflowerblue;
     color: darkslategray;
 }
