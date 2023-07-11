@@ -1,4 +1,59 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
+/* common related styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    border: 0;
+    background: #E55473;
+    padding: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* banner style  */
+#header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+    display: flex;
+    padding: 40px 100px 0px 150px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner-content {
+    width: 50%;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.banner-img {
+    height: 550px;
+    padding-right: 50px;
+}
+ 
+/* banner style End  */
