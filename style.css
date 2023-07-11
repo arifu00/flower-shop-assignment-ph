@@ -18,13 +18,15 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
+
 .section {
     max-width: 1200px;
     padding: 100px;
     margin: 0 auto;
-   
-  
+
+
 }
+
 .section-title {
     color: #272727;
     text-align: center;
@@ -152,20 +154,42 @@ body {
     font-weight: 400;
     margin-bottom: 12px;
 }
-.btn-center{
+
+.btn-center {
     text-align: center;
 }
 
 /* hot deal section end  */
 
 /* instagram section start  */
-.instagram-container{
+.instagram-container {
     display: flex;
     gap: 18px;
     justify-content: center;
 }
-.flowers-info img{
+
+.flowers-info img {
     box-shadow: 1px 1px 10px 0.5px #888888;
 }
 
 /* instagram section end  */
+
+/* Latest-deal section start */
+.latest-deal {
+    background-image: url('asset/rectangle.png');
+    background-repeat: no-repeat;
+}
+.latest-deal-input{
+    text-align: center;
+}
+
+.latest-deal-input input {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    width: 600px;
+}
+
+/* Latest-deal section end */
